@@ -233,7 +233,8 @@ Explanation:
 | Flag                                               | Purpose                     |
 | -------------------------------------------------- | --------------------------- |
 | `-p 7860:7860`                                     | Exposes streaming interface |
-| `-v ~/.cache/huggingface:/root/.cache/huggingface` | Persists downloaded models  |
+| `-i`                                               | Keeps input open            |
+| `-t`                                               | Gives a terminal interface  |
 
 ---
 
