@@ -225,10 +225,7 @@ docker build -t ai4bharat-asr-cpu .
 ## Run Container
 
 ```
-docker run -it \
--p 7860:7860 \
--v ~/.cache/huggingface:/root/.cache/huggingface \
-ai4bharat-asr-cpu
+docker run -it -p 7860:7860 ai4bharat-asr-cpu
 ```
 
 Explanation:
